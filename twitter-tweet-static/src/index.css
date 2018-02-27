@@ -2,4 +2,41 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  font-size: 25px;
+}
+
+.container {
+  width: 100vw;
+  height: 300px;
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  flex-direction: row;
+  /* border: 1px solid; */
+}
+
+.avatar, .info {
+  margin: 20px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid; */
+}
+
+.info div {
+  margin: 5px;
+}
+
+.handle {
+  display: flex;
+  justify-content: space-between;
+  /* border: 1px solid; */
+}
+
+.symbols {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
