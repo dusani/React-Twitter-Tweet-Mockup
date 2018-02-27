@@ -18,6 +18,7 @@ function TwitterTweet() {
       <div className='info'>
         <div className='handle'>
           <div className='handle-name'>@dusani</div>
+          <div className='name'>Daniel Usani</div>
           <div className='elasped-time'>. 3hrs Ago</div>
         </div>
         <div className='message'>Etiam porta sem malesuada magna mollis euismod.</div>
