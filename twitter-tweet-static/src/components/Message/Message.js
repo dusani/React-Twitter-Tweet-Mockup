@@ -1,10 +1,9 @@
 import React from 'react';
 
-const Message = () => {
-  let message1 = 'Etiam porta sem malesuada magna mollis euismod.'
+const Message = (props) => {
 
   return (
-    <div className='message'>{message1}</div>
+    <div className='message'>{props.message}</div>
   );
 }
 

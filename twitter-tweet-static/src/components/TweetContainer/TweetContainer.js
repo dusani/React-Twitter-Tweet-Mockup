@@ -22,8 +22,8 @@ const TwitterTweet = () => {
           <NameWithHandle />
           <Time />
         </div>
-
-        <Message />
+        
+        <Message message= {'Etiam porta sem malesuada magna mollis euismod.'}/>
 
         <div className='icons'>
           <div><ReplyButton /></div>
